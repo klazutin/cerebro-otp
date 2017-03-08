@@ -1,4 +1,4 @@
-# Cerebro OTP plugin
+# [Cerebro](https://cerebroapp.com/) OTP plugin
 
 ![](http://lazut.in/img/github-cerebro-otp.png)
 This plugin generates one-time authorization codes for use with any services that support Google Authenticator for two-step verification.  
@@ -18,3 +18,6 @@ google 5D41402ABC4B2A76B9719D911017C592
 dropbox 7D793037A0760186
 github 6dd075556effaa6e
 ```
+
+## Use
+To use, type the `otp` keyword to show the list of sites for which codes can be generated. Select a site from the list and press Enter or Ctrl-C to copy the code to the clipboard. Alternatively, type `otp <sitename>` to quickly access the code for the site.
